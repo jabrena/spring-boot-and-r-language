@@ -7,6 +7,6 @@ FROM gitpod/workspace-full
 # More information: https://www.gitpod.io/docs/config-docker/
 
 # Install Graphviz
-RUN sudo apt-get update && npm install -g newman
+RUN sudo apt-get update
 
 RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install 21.0.2-graalce"
