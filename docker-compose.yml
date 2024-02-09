@@ -7,3 +7,23 @@ services:
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
+
+  rstudio:
+    image: rocker/rstudio:4.3.2 
+    container_name: rstudio
+    restart: on-failure
+    volumes:
+      - type: volume
+        source: rstudio
+        target: /home/rstudio
+      - type: volume
+        source: r_libs
+        target: /usr/local/lib/R
+    environment:
+      - DISABLE_AUTH=true
+    ports:
+      - "8787:8787"
+
+volumes:
+  r_libs:
+  rstudio:

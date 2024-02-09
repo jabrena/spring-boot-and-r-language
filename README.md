@@ -35,5 +35,7 @@ docker compose down
 - https://www.r-project.org/
 - https://r-graph-gallery.com/
 - https://www.rplumber.io/
+- https://rocker-project.org/
+- https://github.com/rstudio
 - https://github.com/rstudio/cheatsheets/blob/main/plumber.pdf
 - https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.docker-compose
