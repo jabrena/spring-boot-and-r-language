@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "86d8d7ea-8f56-4202-b41e-ba83b025a7cd",
+		"name": "fizzbuzz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "fizz",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "920744b5-8a72-45eb-b6e2-2e8cec2d2fd7",
+						"exec": [
+							"pm.test(\"it returns Fizz\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.response.to.have.jsonBody(\"result\")",
+							"    pm.expect(jsonData.result).to.eql(\"Fizz\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 3\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}",
+					"host": [
+						"{{host}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buzz",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1c01444b-9bb7-457c-ae0e-a4c43621c469",
+						"exec": [
+							"pm.test(\"it returns Buzz\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.response.to.have.jsonBody(\"result\")",
+							"    pm.expect(jsonData.result).to.eql(\"Buzz\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 5\n}"
+				},
+				"url": {
+					"raw": "{{host}}",
+					"host": [
+						"{{host}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fizzbuzz",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "7df04f26-14cf-4eec-8ce5-9cdf54b71ab2",
+						"exec": [
+							"pm.test(\"it returns FizzBuzz\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.response.to.have.jsonBody(\"result\")",
+							"    pm.expect(jsonData.result).to.eql(\"FizzBuzz\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 15\n}"
+				},
+				"url": {
+					"raw": "{{host}}",
+					"host": [
+						"{{host}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "passthrough",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "dba0ff38-3d6d-40b5-bdab-b16f5d761428",
+						"exec": [
+							"pm.test(\"it returns the number\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.response.to.have.jsonBody(\"result\")",
+							"    pm.expect(jsonData.result).to.eql(4);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"number\": 4\n}"
+				},
+				"url": {
+					"raw": "{{host}}",
+					"host": [
+						"{{host}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
