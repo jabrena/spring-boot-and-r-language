@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-java-17
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
@@ -6,7 +6,4 @@ FROM gitpod/workspace-full
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-# Install Graphviz
 RUN sudo apt-get update
-
-RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install 21.0.2-graalce"

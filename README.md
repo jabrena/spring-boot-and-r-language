@@ -1,6 +1,6 @@
 # Spring Boot & R Stat Server
 
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/jabrena/spring-boot-and-r)
+[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jabrena/spring-boot-and-r)
 
 ## Motivation
 
