@@ -1,5 +1,2 @@
-tasks:
-  - before: sdk env
-  - init: ./mvnw clean verify
 image:
   file: .gitpod.Dockerfile

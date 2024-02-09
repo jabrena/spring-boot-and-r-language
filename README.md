@@ -1,6 +1,6 @@
 # Spring Boot & R Stat Server
 
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/jabrena/spring-boot-and-r)
+[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jabrena/spring-boot-and-r)
 
 ## Motivation
 
@@ -10,6 +10,7 @@ Learn how to use **R** in order to interact with **Java** & **Spring Boot**.
 
 ```bash
 docker compose build
+sdk env install
 mvn spring-boot:run
 
 curl "http://localhost:8080/"
