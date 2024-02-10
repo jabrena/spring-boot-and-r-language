@@ -27,6 +27,9 @@ curl "http://localhost:3000/echo?msg=hello"
 curl "http://localhost:3000/plot"
 curl "http://localhost:3000/sum" -H "Content-Type: application/json" --data '{"a":4, "b":5}' 
 
+#Swagger from Plumber
+open http://localhost:3000/__docs__/
+
 docker compose down
 ```
 
@@ -34,8 +37,14 @@ docker compose down
 
 - https://www.r-project.org/
 - https://r-graph-gallery.com/
-- https://www.rplumber.io/
 - https://rocker-project.org/
 - https://github.com/rstudio
+- https://github.com/rstudio/cheatsheets/blob/main/rstudio-ide.pdf
+- https://github.com/rstudio/cheatsheets/blob/main/base-r.pdf
+- https://github.com/rstudio/cheatsheets/blob/main/data-visualization.pdf
+- https://github.com/rstudio/cheatsheets/blob/main/time-series.pdf
 - https://github.com/rstudio/cheatsheets/blob/main/plumber.pdf
+- https://www.rplumber.io/
 - https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.docker-compose
+- https://start.spring.io/
+- https://hypermedia.systems/book/contents/
