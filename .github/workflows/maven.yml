@@ -27,3 +27,5 @@ jobs:
           java-version: 17
       - name: Build with Maven
         run: ./mvnw --batch-mode --no-transfer-progress verify --file pom.xml
+      - name: Build Docker compose
+        run: docker compose build   
