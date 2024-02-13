@@ -4,7 +4,7 @@
 
 ## Motivation
 
-Learn how to use **R** in order to interact with **Java** & **Spring Boot**.
+A repository to explore how to interact with **R** from **Java** with **Spring Boot**.
 
 ## How to run the project from Spring Boot
 
@@ -38,13 +38,15 @@ docker compose down
 - https://www.r-project.org/
 - https://r-graph-gallery.com/
 - https://rocker-project.org/
+- https://ggplot2.tidyverse.org/
 - https://github.com/rstudio
-- https://github.com/rstudio/cheatsheets/blob/main/rstudio-ide.pdf
 - https://github.com/rstudio/cheatsheets/blob/main/base-r.pdf
 - https://github.com/rstudio/cheatsheets/blob/main/data-visualization.pdf
 - https://github.com/rstudio/cheatsheets/blob/main/time-series.pdf
 - https://github.com/rstudio/cheatsheets/blob/main/plumber.pdf
 - https://www.rplumber.io/
-- https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.docker-compose
-- https://start.spring.io/
+- https://spring.io/projects/spring-boot
 - https://hypermedia.systems/book/contents/
+- https://stat.ethz.ch/pipermail/r-help/2006-June/107869.html
+
+Made with ❤️ from Madrid
