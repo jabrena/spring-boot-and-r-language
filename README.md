@@ -10,7 +10,7 @@ Learn how to use **R** in order to interact with **Java** & **Spring Boot**.
 
 ```bash
 docker compose build
-mvn spring-boot:run
+./mvnw spring-boot:run
 
 curl "http://localhost:8080/"
 ```
