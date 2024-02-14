@@ -6,6 +6,8 @@
 
 A repository to explore how to interact with **R** from **Java** with **Spring Boot**.
 
+![](./docs/process.png)
+
 ## How to run the project from Spring Boot
 
 ```bash
