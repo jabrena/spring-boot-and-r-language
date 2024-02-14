@@ -11,3 +11,4 @@
 - https://www.tutorialspoint.com/ggplot2/ggplot2_tutorial.pdf
 - https://www.rdocumentation.org/packages/ggplot2/versions/3.4.4
 - https://r-graphics.org/chapter-ggplot2
+- http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
