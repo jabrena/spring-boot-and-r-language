@@ -33,6 +33,12 @@ open http://localhost:3000/__docs__/
 docker compose down
 ```
 
+**RStudio:**
+
+```
+open http://localhost:8787/
+```
+
 ## References
 
 - https://www.r-project.org/
