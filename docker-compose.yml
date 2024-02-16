@@ -7,6 +7,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
+    network_mode: bridge
 
   rstudio:
     image: rocker/rstudio:4.3.2 
@@ -23,6 +24,7 @@ services:
       - DISABLE_AUTH=true
     ports:
       - "8787:8787"
+    network_mode: bridge
 
 volumes:
   r_libs:
