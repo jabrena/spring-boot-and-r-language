@@ -14,13 +14,17 @@ Every graph can be described as a combination of independent building blocks:
 
 - https://www.tidyverse.org/
 - https://exts.ggplot2.tidyverse.org/
-- https://rc2e.com/
-- https://ggplot2-book.org/
-- http://www.cookbook-r.com/Graphs/
 - https://www.tutorialspoint.com/ggplot2/ggplot2_tutorial.pdf
 - https://www.rdocumentation.org/packages/ggplot2/versions/3.4.4
 - https://r-graphics.org/chapter-ggplot2
 - http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
+
+## Books
+
+- https://rc2e.com/
+- https://ggplot2-book.org/
+- http://www.cookbook-r.com/Graphs/
+
 
 ## WIP
 
@@ -35,6 +39,12 @@ Every graph can be described as a combination of independent building blocks:
 
 ```
 library("ggplot2")
+help(ggplot2)
+data(iris)
+
+url <- "bla bla bla"
+data <- read.csv(url, header = TRUE, sep = ",")
+
 ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy))
 nrow(mpg)
 nrow(unique(mpg[ , c("displ","hwy") ]))

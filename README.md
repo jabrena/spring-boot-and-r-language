@@ -15,6 +15,7 @@ docker compose build
 ./mvnw spring-boot:run
 
 curl "http://localhost:8080/"
+curl -v http://localhost:8080/download/employee.csv
 ```
 
 ## How to run the project from Docker compose
