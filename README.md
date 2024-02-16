@@ -15,10 +15,6 @@ A repository to explore how to interact with **R** from **Java** with **Spring B
 
 ![](./docs/architectural-solution.png)
 
-## Process
-
-![](./docs/process.png)
-
 ## How to run the project from Spring Boot
 
 ```bash
