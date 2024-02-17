@@ -45,6 +45,8 @@ data(iris)
 url <- "bla bla bla"
 data <- read.csv(url, header = TRUE, sep = ",")
 
+download.file(url_excel, destfile="excel.xlsx", mode = "wb")
+
 ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy))
 nrow(mpg)
 nrow(unique(mpg[ , c("displ","hwy") ]))
