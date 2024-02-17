@@ -15,6 +15,13 @@ A repository to explore how to interact with **R** from **Java** with **Spring B
 
 ![](./docs/architectural-solution.png)
 
+## Features
+
+- [x] Run **RStudio** from Docker compose.
+- [x] Provide bidirectional ways/ideas to interact between Java & R.
+- [ ] Send 2D Array from Java in order to process in R and return to a web document.
+- [ ] Provide Data from Java in order to be consumed in R remotely.
+
 ## How to run the project from Spring Boot
 
 ```bash
@@ -55,10 +62,11 @@ open http://localhost:8787/
 - https://hypermedia.systems/book/contents/
 - https://rocker-project.org/
 - https://www.rplumber.io/
-- https://github.com/rstudio
+- https://www.tidyverse.org/
 - https://www.r-project.org/
 - https://r-graph-gallery.com/
-- https://www.tidyverse.org/
+- https://www.rdocumentation.org/
+- https://github.com/rstudio
 
 ## Previous works:
 
