@@ -26,7 +26,7 @@ A repository to explore how to interact with **R** from **Java** with **Spring B
 
 ```bash
 docker compose build
-./mvnw spring-boot:run
+./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
 
 curl "http://localhost:8080/"
 curl -v http://localhost:8080/download/employee.csv
@@ -36,7 +36,7 @@ curl -v http://localhost:8080/download/employee.csv
 
 ```bash
 docker compose build
-docker compose up -d
+docker compose up -d --profile dev
 
 curl "http://localhost:3000/"
 curl "http://localhost:3000/echo"
