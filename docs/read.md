@@ -23,3 +23,13 @@ DBI package functions: If your data is stored in a database, you can use functio
 # References
 
 - https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/read.table
+
+```R
+url <- "bla bla bla"
+data <- read.csv(url, header = TRUE, sep = ",")
+
+download.file(url_excel, destfile="excel.xlsx", mode = "wb")
+
+file_path <- "excel.xlsx"
+data <- read.xlsx(file_path, sheetIndex = 1)
+```

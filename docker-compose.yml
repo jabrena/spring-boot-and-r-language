@@ -3,14 +3,16 @@ version: '3.8'
 services:
   rserver:
     build:
-      context: ./src/main/r
-      dockerfile: Dockerfile
+      context: ./src/main/r/
+      dockerfile: Dockerfile.plumber
     ports:
       - "3000:3000"
     network_mode: bridge
 
   rstudio:
-    image: rocker/rstudio:4.3.2 
+    build:
+      context: ./src/main/r/
+      dockerfile: Dockerfile.rstudio
     container_name: rstudio
     restart: on-failure
     volumes:
@@ -25,6 +27,7 @@ services:
     ports:
       - "8787:8787"
     network_mode: bridge
+    profiles: [dev]
 
 volumes:
   r_libs:
