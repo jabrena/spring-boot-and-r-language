@@ -32,4 +32,6 @@ download.file(url_excel, destfile="excel.xlsx", mode = "wb")
 
 file_path <- "excel.xlsx"
 data <- read.xlsx(file_path, sheetIndex = 1)
+dim(data)
+
 ```
